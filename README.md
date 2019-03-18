@@ -91,7 +91,7 @@ To run this sample end to end with OneLogin it needs to be exposed to the intern
 For this we recommend using Apache or Nginx. On produciton, be sure you protect the /jwt endpoint and you enable HTTPs
 
 ### 5. Configure your SCIM app in OneLogin
-If you already have a SCIM app configured then simply paste the ngrok url in the **SCIM Base URL** field on the **Configuration** tab of your app.
+If you already have a SCIM app configured then simply paste the url in the **SCIM Base URL** field on the **Configuration** tab of your app.
 
 ![onelogin scim app](https://s3.amazonaws.com/onelogin-screenshots/dev_site/images/scim-app.png)
 
