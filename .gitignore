@@ -1,0 +1,4 @@
+db/scim.sqlite
+logs/app.log
+vendor
+composer.lock

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Slim 3</title>
+        <link href='//fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+        <style>
+            body {
+                margin: 50px 0 0 0;
+                padding: 0;
+                width: 100%;
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                text-align: center;
+                color: #aaa;
+                font-size: 18px;
+            }
+            h1 {
+                color: #719e40;
+                letter-spacing: -3px;
+                font-family: 'Lato', sans-serif;
+                font-size: 100px;
+                font-weight: 200;
+                margin-bottom: 0;
+            }
+            div.info {
+                text-align: justify;
+                max-width: 600px;
+                margin: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>OneLogin PHP SCIM Sample</h1>
+        <div><p>A simple PHP API built using <a href="http://www.slimframework.com">Slim</a> that handles and responds to all of the SCIM requests made by OneLogin for user provisioning.</p>
+            <p>The sample is based on the <a href="https://developers.onelogin.com/scim/define-user-schema">OneLogin Core User Schema</a> but could be easily adapted to support the Enterprise schema.</div>
+
+        <div class="info">
+            <p>In order to generate the Bearer token access <a  href="./jwt" target="_blanck">here</a>.</p>
+            <p>He is a list of the resources and actions:</p>
+            <h2>Users</h2>
+            <ul>
+                <li><b>GET /Users</b> - Get the User collection</li>
+                <li><b>GET /Users/:id</b> - Get the User identified by id</li>
+                <li><b>POST /Users</b> - Create User</li>
+                <li><b>PUT /Users/:id</b> - Update the User identified by id</li>
+                <li><b>DELETE /Users/:id</b> - Delete the User identified by id</li>
+            </ul>
+            <h2>Groups</h2>
+            <ul>
+                <li><b>GET /Groups</b> - Get the Group collection</li>
+                <li><b>POST /Groups</b> - Create Group</li>
+                <li><b>PATH /Users/:id</b> - Update partially the Group identified by id</li>
+            </ul>
+        </div>
+    </body>
+</html>
