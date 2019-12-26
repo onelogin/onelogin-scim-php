@@ -19,7 +19,7 @@ class CoreCollection
             'totalResults' => count($this->scimItems),
             'startIndex' => 1,
             'schemas' => $this->schemas,
-            'Resorces' => $this->scimItems
+            'Resources' => $this->scimItems
         ];
 
         if ($encode) {
